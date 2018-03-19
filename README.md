@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To run this application, run this on the terminal
 
-Things you may want to cover:
+# Setup
 
-* Ruby version
+`rails db:setup`
 
-* System dependencies
+# Getting started
 
-* Configuration
+`rails s -p 5000`
 
-* Database creation
+This will start the server on port 5000
 
-* Database initialization
+# Usage
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
+This will setup the server that will serve movies that will shown at Siverbird cinemas. It can be consumed by any frontend application
 * ...
