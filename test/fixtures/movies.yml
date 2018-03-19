@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  movie_url: MyString
+  thumbnail_url: MyString
+  genres: MyString
+  casts: MyString
+  running_time: MyString
+  release_date: 2018-03-19 11:05:26
+
+two:
+  title: MyString
+  movie_url: MyString
+  thumbnail_url: MyString
+  genres: MyString
+  casts: MyString
+  running_time: MyString
+  release_date: 2018-03-19 11:05:26
