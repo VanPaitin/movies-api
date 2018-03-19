@@ -1,18 +1,31 @@
-# README
+# Movies Api
 
-To run this application, run this on the terminal
+This is a simple app that returns the movies listings of the Silverbird cinemas
 
-# Setup
+## Setup
 
-`rails db:setup`
+To run this application, run these on the terminal
 
-# Getting started
+```
+bundle install
+```
 
-`rails s -p 5000`
+```
+rails db:setup
+```
+
+## Getting started
+
+```
+rails s -p 5000
+```
 
 This will start the server on port 5000
 
-# Usage
+## Usage
 
-This will setup the server that will serve movies that will shown at Siverbird cinemas. It can be consumed by any frontend application
-* ...
+This will setup the server that will serve movies that will be shown at Siverbird cinemas. It can be consumed by any front-end application
+
+## Todo
+
+Further refine the scraping process in the seeds file to make sure of data integrity
