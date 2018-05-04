@@ -1,24 +1,31 @@
-# README
+# Movies Api
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple app that returns the movies listings of the Silverbird cinemas
 
-Things you may want to cover:
+## Setup
 
-* Ruby version
+To run this application, run these on the terminal
 
-* System dependencies
+```
+bundle install
+```
 
-* Configuration
+```
+rails db:setup
+```
 
-* Database creation
+## Getting started
 
-* Database initialization
+```
+rails s -p 5000
+```
 
-* How to run the test suite
+This will start the server on port 5000
 
-* Services (job queues, cache servers, search engines, etc.)
+## Usage
 
-* Deployment instructions
+This will setup the server that will serve movies that will be shown at Siverbird cinemas. It can be consumed by any front-end application
 
-* ...
+## Todo
+
+Further refine the scraping process in the seeds file to make sure of data integrity
